@@ -1,0 +1,26 @@
+{
+  "name": "gym-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buenojc/gym-control.git"
+  },
+  "keywords": [],
+  "author": "Julio Cesar Bueno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buenojc/gym-control/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
