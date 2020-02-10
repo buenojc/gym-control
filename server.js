@@ -11,7 +11,7 @@ server.listen(5050, function() {
 
 server.set("view engine", "njk");
 server.use(routes);
-server.use(express.static("public"));
+server.use("/public", express.static("public"));
 
 // Nunjucks configuration
 
