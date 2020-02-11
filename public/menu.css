@@ -8,13 +8,30 @@
 
 .menu > .item {
   display: inline-block;
-  margin-right: 20px;
   font-size: 18px;
   font-family: "Arimo", sans-serif;
   text-decoration: none;
-  color: var(--color-dark);
+  color: var(--color-blue);
+  position:relative;
+  font-weight: bold;
+
 }
 
-.menu > .item:last-child {
-  margin-right: 0;
+.menu > .item:after{
+  content: "";
+  position:absolute;
+  width: 0;
+  bottom: -4px;
+  left: 0;
+  height:2px;
+  background-color: var(--color-blue);
+}
+
+.menu > .item:hover:after{
+  width: 100%;
+  transition: width 400ms ease;
+}
+
+.menu > .item + .item {
+  margin-left: 20px;
 }
