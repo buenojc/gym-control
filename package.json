@@ -19,7 +19,7 @@
     "url": "https://github.com/buenojc/gym-control/issues"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nunjucks": "^3.2.0"
   },
   "devDependencies": {
